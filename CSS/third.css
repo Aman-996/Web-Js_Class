@@ -1,0 +1,346 @@
+@charset "UTF-8";
+body {
+    /* height: 5000px; */
+    background-color: #fafafa;
+}
+/* 面包屑导航 */
+.bread_nav {
+    margin-top: 1px;
+    width: 100%;
+    height: 59px;
+    background-color: #f2f2f2;
+}
+.bread_nav .bread_nav1 .cont1,.cont2 {
+    display: inline-block;
+    margin-right: 20px;
+    font: 14px/59px "MicrosoftYaHei";
+    color: #333;
+}
+
+.bread_nav .bread_nav1 a:last-child{
+    color: #666;
+}
+
+/* banner图 */
+.banner .left {
+    width: 860px;
+    height: 580px;
+    background-color: #fff;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1)
+}
+
+.banner .left img {
+    margin: 20px;
+    width: 820px;
+}
+
+.banner .right {
+    margin-top: 75px;
+}
+
+.banner .right .top p:nth-child(1) {
+    margin-bottom: 11px;
+    font: 22px "MicrosoftYaHei";
+    color: #3E3E3E;
+}
+
+.banner .right .top .p1 {
+    font: 14px/45px "MicrosoftYaHei";
+    color: #3E3E3E;
+}
+
+.banner .right .top .time {
+    margin-top: 30px;
+}
+
+.banner .right .top .time p {
+    font: 14px/30px "MicrosoftYaHei";
+    color: #3E3E3E;
+}
+
+.banner .right .top .time span {
+    margin-right: 4px;
+
+    font: 16px "MicrosoftYaHei";
+    color: #FF6666;
+}
+
+.banner .right .down {
+    margin-top: 68px;
+}
+
+.banner .right .down .price {
+    margin-bottom: 10px;
+}
+
+.banner .right .down .price span {
+    margin-top: 2px;
+    margin-left: 15px;
+    font: 36px/48px "MicrosoftYaHei";
+    color: #74C6B3;
+}
+
+.banner .right .down .price a {
+    display: inline-block;
+
+    width: 130px;
+    font: 16px/48px "MicrosoftYaHei";
+    color: #74C6B3;
+    text-align: center;
+
+    border: 2px solid #74C6B3;
+    border-radius: 4px;
+}
+
+.banner .right .down .buy {
+    height: 48px;
+
+    background-color: #74C6B3;
+    border-radius: 3px;
+}
+
+.banner .right .down .buy a{
+    display: inline-block;
+    font: 15px/48px "MicrosoftYaHei";
+    color: #FFF;
+    text-align: center;
+}
+
+
+.banner .right .down .buy .fl{
+    margin-left: 15px;
+}
+
+.banner .right .down .buy .line{
+    margin-top: 14px;
+    width: 1px;
+    height: 20px;
+    background-color: #fff;
+}
+
+.banner .right .down .buy .fr{
+    margin-right: 34px;
+}
+/* 授课师资 */
+.teach {
+    margin-top: 20px;
+    height: 155px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.teach h2 {
+    padding-left: 21px;
+    
+    font: 20px/68px "MicrosoftYaHei";
+    color: #333;
+}
+
+.teach .left {
+    padding-left: 29px; 
+}
+
+.teach .left .name {
+    display: inline-block;
+    height: 64px;
+    margin-left: 20px;
+}
+
+.teach .left .name p {
+    font: 18px/31px "MicrosoftYaHei";
+    color: #333;
+}
+
+.teach .line {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 30px;
+    width: 1px;
+    height: 50px;
+    background-color: #80c4ae;
+}
+
+.teach .right {
+    margin-right: 33px;
+    width: 850px;
+}
+
+.teach .right p {
+    font: 16px/25px "MicrosoftYaHei";
+    color: #333;
+}
+
+/* 课程目录 */
+.list {
+    margin-top: 20px;
+    height: 66px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.list .list_cont {
+    width: 180px;
+    margin: 0 auto;
+}
+
+.list_cont span {
+    display: inline-block;
+    width: 80px;
+    height: 66px;
+    font: 16px/66px "MicrosoftYaHei";
+    color: #000;
+    text-align: center;
+}
+
+.list_cont .active {
+    margin-right: 16px;
+    background-color: #80c4ae;
+    color: #FFF;
+}
+
+/* 课程目录内容 */
+.subject {
+    margin: 10px 0px;
+    background-color: #fff;
+    float: left;
+    width: 100%;
+    /* padding: 20px; */
+    padding-right: 0px;
+}
+
+.subject .lessonPic {
+    display: none;
+}
+
+.subject .lessonPic img {
+    width: 100%;
+    height: auto;
+}
+
+.subject ol li:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.subject ol li {
+    line-height: 42px;
+}
+
+.subject p h3 {
+    float: left;
+}
+
+.subject ol li h3,img,h4 {
+    float: left;
+}
+
+.subject ol li span {
+    float: right;
+    margin-right: 40px;
+}
+
+.subject ol li .active {
+    width: 119px;
+    height: 42px;
+    background-color: #80c4ae;
+    color: #FFF;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 20px;
+
+    display: none;
+}
+
+.subject ol li .pic1 {
+    display: inline-block;
+    margin-right: 17px;
+
+    width: 23px;
+    height: 42px;
+    background: url(../images/playicon.png) no-repeat center center;
+}
+
+.subject ol li h3 {
+    font: 16px/42px "MicrosoftYaHei";
+    color: #333;
+}
+
+.subject p {
+    position: relative;
+    line-height: 50px;
+}
+
+.subject p i{
+    font: 20px/30px "黑体";
+}
+
+.subject p .icon {
+    /* float: right; */
+    position: absolute;
+    right: 35px;
+    top: -5px;
+    width: 13px;
+    height: 43px;
+    background: url(../images/图层\ 10.png) no-repeat center center;
+}
+
+.subject p .icon3 {
+    position: absolute;
+    right: 35px;
+    top: -5px;
+    width: 13px;
+    height: 43px;
+    background: url(../images/images/topicon.png) no-repeat center center;
+}
+
+.subject ol li .icon2 {
+    float: right;
+    width: 13px;
+    height: 43px;
+    background: url(../images/images/3.视频详情页-已完成_03.png) no-repeat center center;
+}
+
+.subject .lessonTitle {
+    padding: 20px;
+} 
+
+.subject .lesson {
+    padding-bottom: 10px;
+}
+
+
+
+/* 展开内容 */
+.open {
+    margin-top: 47px;
+    margin-bottom: 81px;
+    text-align: center;
+}
+
+.open1 {
+    font: 22px "MicrosoftYaHei";
+    color: #8dd0c0;
+    text-decoration:underline #8dd0c0;
+    cursor: pointer;
+}
+
+.open span {
+    font: 22px "MicrosoftYaHei";
+    color: #8dd0c0;
+    text-decoration:underline #8dd0c0;
+    cursor: pointer;
+}
+
+.bigbox h1{
+    height: 38px;
+}
+
+.footer {
+    float: left;
+    width: 100%;
+
+}
+
+

@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+/* ==========轮播图============ */       
+.banner {
+    position: relative;
+
+    margin-top: 36px;
+    margin-bottom: 30px;
+
+    height: 350px;
+}
+
+.banner_pic>li {
+    position: absolute;
+    opacity: 0;
+}
+
+.banner_title {
+    width: 198px;
+    height: 250px;
+    background: #000000;
+    border-radius: 4px;
+    opacity: 0.5;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding-top: 29px;
+}
+
+.banner_title>li {
+    padding-left: 33px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #E4E4E4;
+    line-height: 20px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.banner_title>.active {
+    background: url(../img/index/left.png) no-repeat 20px 5px;
+    color: #7effde;
+}
+/* ======================================== */       
+
+/* ================同步课程=============== */
+/* 同步课程标题栏 */
+.main {
+    width: 1180px;
+    margin: 0 auto;
+    margin-top: 5px;
+
+}
+.main_title {   
+    padding-top: 20px;
+}
+
+.main_title .title h2 {
+    font: 20px/66px "MicrosoftYaHei";
+    color: #333333;
+}
+
+.main_title .title h2:before {
+    content: "";
+    display: block;
+    float: left;
+
+    margin-right: 10px;
+    margin-top: 23px;
+    width: 5px;
+    height: 20px;
+    background-color: #80C4AE
+}
+
+.main_title .title a {
+    display: block;
+    /* 距离h2设置行高6像素 */
+    padding-top: 6px;
+
+    font: 14px/60px "MicrosoftYaHei";
+    color: #74C6B3;
+}
+
+.main_title .title a:after {
+    content: "";
+    display: block;
+    float: right;
+
+    margin-top: 26px;
+    margin-left: 11px;
+    
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #74C6B3;
+}
+
+
+
+/* 广告图2 */
+.banner2 {
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+.banner2 img {
+    height: 186px;
+}
+
+/* 在线测试 */
+.main_banner1 ul li .pic .pic_bgd .fr:last-child {
+    content: "";
+    display: block;
+    font: 12px/33px "MicrosoftYaHei";
+    color: #FFFFFF;
+    padding-right: 18px;
+}
+
+
+
+/* 精品课程 */
+.main_title3 .title_cont .main_banner1{
+    width: 877px;
+} 
+
+.main_title3 .title_cont .good_Oul {
+    margin-right: -18px;
+} 
+
+.main_title3 .title_cont .good_Oul li{
+    margin-right: 18px;
+} 
+
+.main_title3 .title_cont .good_Oul li .pic img{
+    width: 280px;
+    height: 160px;
+} 
+
+.main_title3 .title_cont .cont2-right {
+    height: 474px;
+}
+
+.main_down {
+    margin-bottom: 97px;
+}
+
+.main_down a {
+    display: inline-block;
+    padding-top: 24px;
+    width: 380px;
+}
+
+.main_down img {
+    width: 380px;
+}
+
+.main_down .pic2 {
+    margin: 0 16px;
+}
+
+/* 侧边栏 */
+.aside {
+    position: fixed;
+    top: 535px;
+    right: 200px;
+}
+
+.aside div {
+    margin-bottom: 5px;
+
+    width: 70px;
+    height: 70px;
+}
+
+.aside .test,.sub,.back {
+    position: relative;
+    background: url(../images/icon_1.png) no-repeat;
+}
+
+.aside .test img,.sub img,.back img {
+    position: absolute;
+    top: 9px;
+    left: 21px;
+}
+
+.aside .test a,.sub a,.back a {
+    display: inline-block;
+    position: absolute;
+    top: 47px;
+    left: 8px;
+
+    font: 14px "MicrosoftYaHei";
+    color: #7DC0AB;
+}

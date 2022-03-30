@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+.footer {
+    margin-top: 100px;
+}
+
+/*  目录区 */
+.banner .right {
+    margin-top: 0px;
+    width: 320px;
+    height: 580px;
+    background-color: #fff;
+    overflow: scroll;
+}
+
+.banner .title {
+    margin: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.banner .title span {
+    display: inline-block;
+    width: 80px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(172, 168, 168);
+}
+
+.banner .title .active {
+    font-weight: bold;
+    color: #fff;
+    background-color:#80c4ae;
+    border-radius: 8px;
+}
+
+.banner .title span:nth-child(2) {
+    margin-left: 5px;
+}
+
+.banner .contents, .banner .comment{
+    margin: 30px;
+}
+
+.banner .contents .lesson {
+    margin-bottom: 15px;
+}
+
+.contents .lesson li {
+    margin-bottom: 5px;
+}
+
+.contents .lesson li:hover {
+    background-color: rgba(185, 247, 205, 0.322);
+}
+
+.contents .lesson a {
+    font-size: 14px;
+    color: #000;
+}
+
+.contents .lesson i {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contents .lesson h4 {
+    line-height: 40px;
+}
+
+.contents .lesson img {
+    margin-top: 8px;
+}
+
+/* 评论区 */
+.comment {
+    display: none;
+}
+
+.comment input {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #80c4ae;
+}
+
+.comment button {
+    margin-top: 10px;
+    margin-left: 202px;
+    width: 60px;
+    font-size: 14px;
+    line-height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #80c4ae;
+    color: #fff;
+} 
+
+.comment li {
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.comment p:nth-of-type(1) {
+    line-height: 40px;
+}
+
+.comment p:nth-of-type(1) img{
+    width: 40px;
+}
+
+.comment p:nth-of-type(1) span{
+    padding-left: 5px;
+}
+
+.comment p:nth-of-type(2){
+    padding: 20px 0;
+   line-height: 20px;
+}

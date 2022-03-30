@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+/* 顶部样式 */
+.headerLine {
+    min-width: 1180px;
+    height: 80px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.09);
+}
+
+.inner {
+    width: 1180px;
+    margin: 0 auto;
+}
+/* logo样式 */
+.header .logo {
+    margin: 14px 125px 13px 0px;
+}
+
+/* 登录注册样式 */
+.header .login {
+    position: relative;
+}
+
+.header .login span{    
+    font-size: 14px;
+    font: 14px/80px "MicrosoftYaHei";
+    color: #535353;
+}
+
+.header .login img {
+    width: 50px;
+    margin-top: 20px;
+    display: none;
+}
+
+/* .header .login:hover .userlist {
+    display: block;
+} */
+
+.header .login .userlist {
+    width: 122px;
+    height: 269px;
+    background: url(../img/login/jx.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 65px;
+    right: 0px;
+    display: none;
+    z-index: 99999;
+  }
+
+  .header .login .userlist ul {
+    width: 122px;
+    height: 100%;
+    padding-top: 25px;
+    margin-left: 0;
+  }
+  .header .login .userlist ul li {
+    font-size: 16px;
+    color: #333;
+    line-height: 30px;
+    height: 38px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .header .login .userlist ul li a {
+    color: #333;
+    font-size: 16px;
+  }
+
+/* 导航栏样式 */
+.header .nav ul li {
+    float: left;
+    margin-right: 22px;
+}
+
+.header .nav li .active {
+    height: 80px;
+    background-color: #80c4ae;
+    color: #FFFFFF;
+}
+
+.header .nav li:last-child {
+    margin-right: 0px;
+}
+
+.header .nav li a:hover {
+    background-color: #80c4ae;
+    color: #FFFFFF;
+}
+
+.header .nav ul li a {
+    float: left;
+    display: block;
+    
+    width: 76px;
+
+    font: 16px/80px "MicrosoftYaHei";
+    color: #333;
+    text-align: center;
+}
+
+
+/* 搜索框 */
+.header form {
+    border: 1px solid #8AC9B5;
+    border-radius: 2px;
+
+    margin: 22px 22px 0 0px;
+}
+
+.header form select {
+    border-right: 1px solid #8AC9B5;
+
+    width: 67px;
+    height: 34px;
+    font: 14px/34px "MicrosoftYaHei";
+    color: #8AC9B5;
+    text-indent: 13px;
+
+    background: url(../images/bgd1.png) no-repeat 50px 15px;
+    appearance:none;
+}
+
+.header form input[placeholder] { 
+    padding-right: 51px;
+
+    font: 12px/34px "MicrosoftYaHei";
+    color: #A9A9A9;
+    text-indent: 35px;
+}
+
+.header form input[type=submit] {
+    width: 30px;
+    height: 34px;
+    background: url(../images/bgd-2.png) no-repeat left;
+}
+
+/* 同步课程内容 */
+.main_banner1 ul {
+    margin-right: -20px;
+}
+
+.main_banner1 ul li {
+    position: relative;
+    float: left;
+
+    margin-right: 20px;    
+    margin-bottom: 21px;
+
+    background-color: #F8F8F8;
+    border-radius: 3px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .3);
+}
+
+/* .main_banner1 ul .margin_right20{
+} */
+
+.main_banner1 ul li .pic span {
+    position: absolute;
+    left: 0px;
+
+    width: 71px;
+    height: 33px;
+    background-color: rgba(0, 0, 0, .3);
+    border-bottom-right-radius: 9px;
+
+    font: 12px/33px "MicrosoftYaHei";
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.main_banner1 ul li .pic .pic_bgd {
+    position: absolute;
+    top: 130px;
+
+    width: 100%;
+    height: 33px;
+
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.main_banner1 ul li .pic p {
+    font: 12px/33px "MicrosoftYaHei";
+    color: #FFFFFF;
+    text-indent: 16px;
+}
+
+.main_banner1 ul li .txt h3 {
+    margin-left: 10px;
+    font: 14px/38px "MicrosoftYaHei";
+    color: #565656;
+}
+
+.main_banner1 ul li .txt span {
+    display: block;
+    margin-left: 9px;
+    margin-bottom: 11px;
+    font: 12px "MicrosoftYaHei";
+    color: #565656;
+}
+
+.main_banner1 ul li .txt .right {
+    margin-top: 15px;
+    margin-right: 10px;
+
+    /* width: 87px; */
+    height: 31px;
+    background-color: rgb(116, 198, 179);
+    border-radius: 2px;
+}
+
+.main_banner1 ul li .txt .right a {
+    display: block;
+
+    font: 15px/31px "MicrosoftYaHei";
+    color: #FFFFFF;
+    padding: 0 15px;
+    text-align: center;
+}
+
+/* 底部样式 */
+.footer {
+    padding: 75px 0;
+    
+    background-color: #333;
+    text-align: center;
+}
+
+
+.footer p,a {
+    font-size: 12px;
+    font-family: "SimSun";
+    color: #F0F2F5;
+    line-height: 38px;
+}
+
+.footer span {
+    padding:0 8px;
+}
+
+
